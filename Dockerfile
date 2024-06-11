@@ -1,3 +1,3 @@
 FROM ngnix 
-COPY . /ust/share/ngnix/html
+COPY . /usr/share/ngnix/html
 CMD ["ngnix","-g","daemon off;"]
